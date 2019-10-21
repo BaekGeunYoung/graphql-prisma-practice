@@ -1,0 +1,13 @@
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/dvmflstm-630cbb/graphql-prisma-practice/dev
+
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+
+hooks:
+  post-deploy:
+    - prisma generate

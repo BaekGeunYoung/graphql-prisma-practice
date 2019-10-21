@@ -1,5 +1,5 @@
 #endpoint: ''
-endpoint: https://eu1.prisma.sh/dvmflstm-630cbb/graphql-prisma-practice/dev
+endpoint: http://localhost:4466
 
 
 datamodel: datamodel.prisma
